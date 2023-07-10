@@ -1,0 +1,482 @@
+.logo-img {
+    width: 120px;
+    height: 40px;
+}
+
+@font-face {
+    font-family: 'Aeonik';
+    src: url('fonts/Aeonik-font-download/Aeonik-Light.otf');
+
+    font-weight: 250;
+    font-style: normal;
+
+}
+.card-container{
+    display: flex;
+}
+
+.nav-item {
+    font-family: "Quicksand";
+    font-size: 16px;
+}
+
+.learn-more-text{
+    font-family: "Aeonik";
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.main-body {
+    max-width: 96vw;
+}
+
+.nav-link {
+    font-family: 'Quicksand';
+    font-size: 120%;
+}
+
+.padded-div,
+.padded-div1 {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+}
+
+.plant-name, .price{
+    font-family: "Aeonik";
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+.text1 {
+    font-family: 'Lora', serif;
+    text-shadow: 0 0 0 black;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.lake-font {
+    font-family: "Aeonik";
+    font-size: 24px;
+    font-weight: 250;
+}
+
+.stay-update-text {
+    font-family: "Lora";
+    font-weight: 500;
+}
+
+.horizontal-line {
+    border-top: 2.5px solid;
+    color: black;
+}
+
+.buttons {
+    border-radius: 25px;
+    width: 150px;
+    font-size: small;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.best-house-text {
+    font-family: 'Belleza', sans-serif;
+    font-weight: 500;
+    font-size: 5vw;
+    padding-top: 130px;
+}
+
+.pamela-title{
+    font-weight: 500;
+    font-family: 'Lora', serif;
+}
+
+.beautiful-living-text {
+    font-weight: 600;
+    font-size: 24px;
+    font-family: "Aeonik";
+}
+
+.bloomberg-text {
+    opacity: 70%;
+    font-weight: bolder;
+    font-size: 36px;
+    font-family: "Aeonik";
+}
+
+.forbes-text {
+    opacity: 60%;
+    font-weight: bold;
+    font-family: "Lora";
+    font-size: 36px;
+}
+
+.footer-style {
+    background-color: #f3f3f3;
+}
+
+.footer-item{
+    font-family: "Quicksand";
+}
+
+.press-text{
+    font-family: "Aeonik";
+    font-size: 15px;
+}
+
+.padding-footer {
+    padding: 20px 0px;
+}
+
+.whole-div {
+    background: linear-gradient(180deg, white 50%, #EDEDED 50%);
+}
+
+.padding-logo {
+    padding-left: 3%;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-link {
+    color: inherit;
+}
+
+.shop-with-text {
+    font-family: "Aeonik"
+}
+
+.review-stars {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.reviews-heading {
+    font-weight: 600;
+    font-family: "Aeonik";
+    font-size: 20px;
+    letter-spacing: 10%;
+}
+
+.reviews {
+    font-size: medium;
+}
+
+.plant-banner {
+    width: 100%;
+    height: 100%;
+}
+.we-put-text{
+    font-family: "Lora";
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.here-are-text{
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    font-size: 48px;
+}
+.here-are-text2 {
+    font-family: "Lora";
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.our-shop-text {
+    font-size: medium;
+    font-family: "Aeonik";
+}
+
+.image-container1 {
+    display: flex;
+    align-items: stretch;
+}
+
+.image-container1 img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-left: auto;
+}
+
+.step-text{
+    font-size: 20px;
+    font-family: "Aeonik";
+}
+
+.top-div {
+    max-width: 100%;
+    height: auto;
+}
+
+.image2 {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.left-image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.arrow-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.footer-style ul {
+    padding-inline-start: 0px;
+}
+
+.shop-now-button{
+    border-radius: 25px;
+    width: 178px;
+    height: 52.57px;
+    font-size: 19.62px;
+    font-family: "Aeonik";
+}
+
+
+.price{
+    position: absolute;
+    right: 0;
+}
+
+@media (min-width: 768px) {
+    .plant-img {
+        display: flex;
+        align-items: stretch;
+    }
+
+    .image-container {
+        position: relative;
+        
+        height: 100%;
+    }
+
+    .image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .arrow-icon {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .nav-icon{
+        height: 30px;
+        width: 30px;
+        padding-left: 15px;
+    }
+    .learn-more-text{
+        font-size: 12px;
+    }
+    .best-house-text{
+        padding-top: 20px;
+    }
+    .our-shop-text{
+        font-size: 7px;
+    }
+    .stay-update-text{
+        text-align: center;
+    }
+    .navbar-toggler-icon{
+        width: 25px;
+        height: 25px;
+    }
+
+    .step-text{
+        font-size: 7px;
+        font-family: "Aeonik";
+    }
+    .icon-container{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .icon{
+        font-size: 2rem;
+    }
+
+    .our-shop-text {
+        color: gray;
+        font-size: 18px;
+    }
+
+    .plant-name, .price{
+        font-size: 10px;
+        font-family: "Aeonik";
+    }
+
+    .bloomberg-text,
+    .forbes-text {
+        font-size: 16px;
+    }
+
+    .review-stars-div {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .shop-with-text {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .reviews-heading {
+        font-weight: 600;
+        font-size: 20px;
+        text-align: center;
+        font-family: "Aeonik";
+    }
+
+    .first-three-cards {
+        min-width: 300px;
+        height: 300px;
+        margin-bottom: 132px;
+    }
+
+    .last-card {
+        display: none;
+
+    }
+
+    .padding-logo {
+        padding-left: 0px;
+    }
+
+    .padded-div1 {
+        padding-right: 0px;
+    }
+
+    .display-xs-3 {
+        font-size: 1.8rem;
+    }
+
+    .here-are-text {
+        font-size: 20px;
+        font-family: "Lora";
+    }
+
+    .we-put-text{
+        font-size: 11px;
+        font-family: "Lora";
+    }
+
+    .arrow-image{
+        width: 1rem;
+        height: 1.5rem;
+    }
+
+    .arrow-image1{
+        margin-right: 10px;
+    }
+    .here-are-text2 {
+        font-size: 25px;
+    }
+
+    .text1 {
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Lora', serif;
+        font-weight: 500;
+    }
+
+    .lake-font {
+        font-size: 12px;
+        font-family: "Aeonik";
+        font-weight: 250;
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .learn-more {
+        justify-content: center;
+    }
+
+    input[type='email'] {
+        background-color: #f3f3f3;
+    }
+
+    .beautiful-living-text{
+        font-size: 15px;
+    }
+
+    .press-text{
+        font-size: 9px;
+    }
+
+    .shop-now-button{
+        width: 88px;
+        height: 26.13px;
+        font-size: 9.7px;
+    }
+
+    .see-all-button{
+        width: 88px;
+        height: 26.13px;
+        font-size: 9.7px;
+    }
+
+    
+}
+
+@media (max-width: 992px){
+    .shop-now-button{
+        width: 140px;
+        height: 37px;
+        font-size: 15px;
+    }
+    .nav-icon{
+        height: 30x;
+        width: 30px;
+        padding-left: 25px;
+    }
+
+    .reviews-heading {
+        font-weight: 600;
+        font-size: 22px;
+        text-align: center;
+        font-family: "Aeonik";
+    }
+
+    .plant-name, .price{
+        font-size: 15px;
+        font-family: "Aeonik";
+        font-weight: 400;
+    }
+  
+    .text1{
+        font-size: 25px;
+    }
+    .step-text{
+        font-size: 15px;
+    }
+    .here-are-text{
+        font-size: 32px;
+    }
+    .we-put-text{
+        font-size: 17px;
+    }
+
+    .nav-item{
+        font-size: 12px;
+    }
+}
